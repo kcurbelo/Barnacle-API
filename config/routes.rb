@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   resources :beaches
 
-  'beaches#index'
+  root 'beaches#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
